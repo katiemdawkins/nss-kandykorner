@@ -1,0 +1,357 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "Kandy Korner NYC",
+            "address": "555 Ave"
+        },
+        {
+            "id": 2,
+            "name": "Kandy Korner LA",
+            "address": "3213 Sunset Dr"
+        },
+        {
+            "id": 3,
+            "name": "Kandy Korner Miami",
+            "address": "242 Boulevard"
+        }
+
+    ],
+
+    "locationInventory": [
+        {
+            "id":1,
+            "locationId": 1,
+            "productId": 1,
+            "numberInStock": 99
+        },
+        {
+            "id":2,
+            "locationId": 1,
+            "productId": 2,
+            "numberInStock": 33
+        },
+        {
+            "id":3,
+            "locationId": 1,
+            "productId": 3,
+            "numberInStock": 59
+        },
+        {
+            "id":4,
+            "locationId": 1,
+            "productId": 4,
+            "numberInStock": 79
+        },
+        {
+            "id":5,
+            "locationId": 2,
+            "productId": 1,
+            "numberInStock": 99
+        },
+        {
+            "id":6,
+            "locationId": 2,
+            "productId": 2,
+            "numberInStock": 99
+        },
+        {
+            "id":7,
+            "locationId": 2,
+            "productId": 3,
+            "numberInStock": 99
+        },
+        {
+            "id":8,
+            "locationId": 2,
+            "productId": 4,
+            "numberInStock": 99
+        },
+        {
+            "id":9,
+            "locationId": 3,
+            "productId": 1,
+            "numberInStock": 99
+        },
+        {
+            "id":10,
+            "locationId": 3,
+            "productId": 2,
+            "numberInStock": 99
+        },
+        {
+            "id":11,
+            "locationId": 3,
+            "productId": 3,
+            "numberInStock": 99
+        },
+        {
+            "id":12,
+            "locationId": 3,
+            "productId": 4,
+            "numberInStock": 99
+        },
+        {
+            "id":13,
+            "locationId": 1,
+            "productId": 5,
+            "numberInStock": 99
+        },
+        {
+            "id":14,
+            "locationId": 2,
+            "productId": 5,
+            "numberInStock": 99
+        },
+        {
+            "id":15,
+            "locationId": 3,
+            "productId": 5,
+            "numberInStock": 99
+        },
+        {
+            "id":16,
+            "locationId": 1,
+            "productId": 6,
+            "numberInStock": 99
+        }
+
+    ],
+
+    "products": [
+        {
+            "id":1,
+            "candyName": "Giant Lolly",
+            "productTypeId":1,
+            "price": 4
+        },
+        {
+            "id":2,
+            "candyName": "Jolly Ranchers",
+            "productTypeId":1,
+            "price": 1
+        },
+        {
+            "id":3,
+            "candyName": "Gummy Bears",
+            "productTypeId":2,
+            "price": 3
+        },
+        {
+            "id":4,
+            "candyName": "Chololate Bunny",
+            "productTypeId":3,
+            "price": 3.5
+        },
+        {
+            "id":5,
+            "candyName": "Sweet Tarts",
+            "productTypeId":1,
+            "price": 3
+        },
+        {
+            "id":6,
+            "candyName": "Chocolate Caramel Morsels",
+            "productTypeId":2,
+            "price": 2.5
+        }
+    ],
+
+    "productTypes": [
+        {
+            "id":1,
+            "typeOfCandy": "hard"
+        },
+        {
+            "id":2,
+            "typeOfCandy": "gummy"
+        },
+        {
+            "id":3,
+            "typeOfCandy": "chocolate"
+        }
+
+    ],
+
+    "employees": [
+        {
+            "id": 1,
+            "name": "Gerardo Kilback",
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "name": "Loren Bogisich",
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "name": "Dallas Emmerich",
+            "locationId": 1
+        },
+        {
+            "id": 4,
+            "name": "Francis Sawayn",
+            "locationId": 2
+        },
+        {
+            "id": 5,
+            "name": "Diane Anderson",
+            "locationId": 2
+        },
+        {
+            "id": 6,
+            "name": "Ruben Spencer",
+            "locationId": 2
+        },
+        {
+            "id": 7,
+            "name": "Joyce Bogan",
+            "locationId": 3
+        },
+        {
+            "id": 8,
+            "name": "Armando Pouros",
+            "locationId": 3
+        },
+        {
+            "id": 9,
+            "name": "Kelvin O'Kon",
+            "locationId": 3
+        }
+
+    ],
+
+    "customers": [
+        {
+            "id":1,
+            "name": "Ms. Ron Corkery"
+        },
+        {
+            "id":2,
+            "name": "Dean Wehner"
+        },
+        {
+            "id":3,
+            "name": "Ernestine Satterfield"
+        },
+        {
+            "id":4,
+            "name": "Homer Zboncak"
+        },
+        {
+            "id":5,
+            "name": "Tabitha Ondricka"
+        },
+        {
+            "id":6,
+            "name": "Geneva Nicolas"
+        },
+        {
+            "id":7,
+            "name": "Valerie Blanda"
+        },
+        {
+            "id":8,
+            "name": "Sheri Franey"
+        },
+        {
+            "id":9,
+            "name": "Jane Glover"
+        },
+        {
+            "id":10,
+            "name": "Mr. Rodolfo Bechtelar"
+        },
+        {
+            "id":11,
+            "name": "Gwendolyn Schroeder"
+        },
+        {
+            "id":12,
+            "name": "Elena Pagac"
+        }
+    ],
+
+    "customerPurchases": [
+        {
+            "id": 1,
+            "customerID": 1,
+            "locationId": 1,
+            "productId": 6,
+            "date": "02/02/2022"
+        },
+        {
+            "id": 2,
+            "customerID": 2,
+            "locationId": 1,
+            "productId": 5,
+            "date": "02/02/2022"
+        },
+        {
+            "id": 3,
+            "customerID": 3,
+            "locationId": 1,
+            "productId": 4,
+            "date": "02/02/2022"
+        },
+        {
+            "id": 4,
+            "customerID": 4,
+            "locationId": 1,
+            "productId": 3,
+            "date": "02/02/2022"
+        },
+        {
+            "id": 5,
+            "customerID": 5,
+            "locationId": 2,
+            "productId": 2,
+            "date": "02/02/2022"
+        },
+        {
+            "id": 6,
+            "customerID": 6,
+            "locationId": 2,
+            "productId": 1,
+            "date": "02/02/2022"
+        },
+        {
+            "id": 7,
+            "customerID": 7,
+            "locationId": 2,
+            "productId": 5,
+            "date": "02/02/2022"
+        },{
+            "id": 8,
+            "customerID": 8,
+            "locationId": 2,
+            "productId": 4,
+            "date": "02/02/2022"
+        },{
+            "id": 9,
+            "customerID": 9,
+            "locationId": 3,
+            "productId": 3,
+            "date": "02/02/2022"
+        },{
+            "id": 10,
+            "customerID": 10,
+            "locationId": 3,
+            "productId": 2,
+            "date": "02/02/2022"
+        },{
+            "id": 11,
+            "customerID": 11,
+            "locationId": 3,
+            "productId": 1,
+            "date": "02/02/2022"
+        },{
+            "id": 12,
+            "customerID": 12,
+            "locationId": 3,
+            "productId": 1,
+            "date": "02/02/2022"
+        }
+    ]
+}
