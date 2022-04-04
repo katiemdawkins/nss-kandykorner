@@ -1,1 +1,1 @@
-# nss-kandykorner
+# Kandy Korner API
